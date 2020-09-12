@@ -1,0 +1,10 @@
+Linked List Constsruction
+Write a DoublyLinkedList class that has a head and a tail, both of which points either to a linked list Node or
+None/null. The class should support:
+  - Setting the head and tail of the linked list
+  - Inserting nodes before and after other nodes as well as at given positions
+  - Removing given nodes and removing nodes with given values
+  - Searching for nodes with given values
+
+Each node has an integer value as well as prev node and next node both of which can point either to another
+Node or None/null.

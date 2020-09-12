@@ -1,0 +1,12 @@
+The fibonacci sequence is defined as follows: the first number of the sequence is 0, the second number is 1 and
+the nth number is the sum of (n-1)th and (n-2)th numbers. Write a function that takes in an integer n and returns
+the nth fibonacci number.
+
+Important Note: the fibonacci sequence is defined with its first two numbers as F0 = 0 and F1 = 1. For the
+purpose of this question the first fibonacci number is F0; therefore, getnthFib(1) = 0, getnthFib(1) = 1, etc.
+
+Sample Input:
+ n = 6
+
+Sample Output:
+ n = 5

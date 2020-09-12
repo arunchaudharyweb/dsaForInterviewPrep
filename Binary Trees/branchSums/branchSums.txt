@@ -1,0 +1,21 @@
+Write a function that takes in a binary tree and return a list of its branch sums ordered from leftmost branch
+sum to the rightmost branch sum.
+
+A brnach sum is the sum of all values in a binary tree branch. A binary tree branch is a path  of nodes in a 
+tree that starts at the root node and ends at any leaf node.
+
+Each binary tree has an integer value, a left child node and a right child node. Children nodes can either be
+BinaryTree nodes themselves or none/null.
+
+Sample Input:
+
+Tree =      1
+        /       \
+      2           3
+   /    \      /     \
+  4       5   6       7
+ / \     /
+8   9   10
+
+Sample Output:
+[15, 16, 18, 10, 11]

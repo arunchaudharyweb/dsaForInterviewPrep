@@ -1,0 +1,24 @@
+You are given three inputs, all of which are instances of an AncestralTree class that have an ancestor property
+pointing to their youngest ancestor. The first input is the top ancestor in the ancestral tree ( i.e. the only 
+instance that has no ancestor -- its ancestor property points to None/null), and the other two inputs are
+descendents in the ancestral tree.
+
+Write a function that returns the youngest common ancestor to the two descendents.
+
+Sample input:
+
+  // The nodes are from ancestral tree below.
+  topAncestor = Node A 
+  descendentOne = Node E 
+  descendentTwo = Node I 
+           A
+       /       \
+      B         C
+    /   \     /   \
+   D     E   F     G
+ /   \
+H     I
+
+Sample Output:
+
+  Node B

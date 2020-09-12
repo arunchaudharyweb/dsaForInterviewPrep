@@ -1,0 +1,26 @@
+Write three functions that takes in a Binary Search Tree(BST) and an empty array, traverse the BST, and its
+nodes' values to the input array, and return that array. The three functions should traverse the BST using the 
+in-order, pre-order and post-order tree traversal techniques respectively.
+
+Each BST node has an integer value, a left child node, and a right child node. A node is said to be a vilid BST 
+node if and only if it satisfies BST property: its value is strictly greater than the values of every node to its
+left and is less than or equal to the values of every node to its right and its children nodes are either valid
+BST nodes themselves or None/null.
+
+Sample Input:
+
+  tree =    10
+        /        \
+      5            15
+    /   \             \
+   2     5             22
+  /             
+ 1               
+
+  array = []
+
+Sample Output:
+
+inOrderTraverse: [1, 2, 5, 5, 10, 15, 22] // where the array is input array
+preOrderTraverse: [10, 5, 2, 1, 5, 15, 22] // where the array is input array
+postOrderTraverse: [1, 2, 5, 5, 22, 15, 10] // where the array is input array
