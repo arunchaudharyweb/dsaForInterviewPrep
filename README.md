@@ -21,4 +21,5 @@ I have tried my best to write the most optimal solution and a clean code as much
 <hr>
 It took me months to create this repo. So if you find it useful, please consider giving it a star . 😊
 <br />
-I will try to add new problems daily. So keep an eye on repo. 😎
+<br />
+I will also try to add new problems daily. So keep an eye on repo. 😎
