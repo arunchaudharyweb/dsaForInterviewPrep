@@ -1,4 +1,4 @@
-<h1>Hello coders 👨‍💻, Welcome to DSA with python 🙋‍♂️</h1>
+<h2>Hello coders 👨‍💻, Welcome to DSA for interview preparation 🙋‍♂️</h2>
 
 
 ### About 📌
